@@ -2,7 +2,7 @@
 
 StatusHub is an application designed to monitor the health and status of other applications through their endpoints. The application offers both a Developer Dashboard and a Public Dashboard, allowing developers to monitor their applications' endpoints in real-time and users to report bugs. 
 
-StatusHub was developed during the [iTEC](https://itec.ro/) hackathon by a team of three university colleagues. I worked on the backend alongside another teammate, where I implemented several key features, including specific endpoints, the notification system, the integration with the OpenAI API, and other backend logic. Our collaboration and effective task delegation helped us secure second place in the competition.
+StatusHub was developed during the [iTEC](https://itec.ro/) hackathon by a team of three university colleagues. I worked on the backend alongside another teammate, where I implemented several key features, including specific endpoints, parts of the notification system, database modelling and other backend logic. Our collaboration and effective task delegation helped us secure second place in the competition.
 
 ## Features
 
