@@ -1,0 +1,41 @@
+.line-endpoint {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid var(--light);
+    align-items: center;
+}
+
+.line-endpoint .left-side, .line-endpoint .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0 !important;
+}
+
+.line-endpoint .right-side {
+    gap: 3rem !important;
+    margin-right: 1rem;
+}
+
+.line-endpoint input, .line-endpoint select {
+    border: none;
+}
+.line-endpoint select:focus-visible {
+    outline: none;
+}
+.line-endpoint .input-field .input-label {
+    width: 0;
+}
+.line-endpoint .error-box {
+    display: flex;
+    justify-content: center;
+    width: 140px;
+}
+
+.line-endpoint .endpoint-id {
+    width: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+

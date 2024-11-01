@@ -1,0 +1,20 @@
+.line-card .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+
+.line-card .right {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.line-card .hour {
+    /* color: var(--light); */
+    border: 2px solid;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    /* background-color: var(--background); */
+}

@@ -1,0 +1,38 @@
+.report-bug .page-content{
+    margin-top: 5rem;
+}
+
+.report-bug .sub-title {
+    margin-bottom: 3rem;
+}
+
+.report-bug .page-content .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.report-bug .input-field {
+    align-items: center;
+}
+
+.report-bug .input-field .input {
+    width: 50vw;
+}
+.report-bug .input-field.textarea {
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.report-bug .input-field.textarea .input-label {
+    margin-top: 10px;
+}
+
+.report-bug .input-field.textarea .input {
+    height: 30vh;
+}
+
+.report-bug .icon-button {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}

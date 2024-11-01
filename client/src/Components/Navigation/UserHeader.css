@@ -1,0 +1,47 @@
+.user-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.user-header h1 {
+    text-transform: capitalize;
+}
+
+.user-header .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+    gap: 1.5rem;
+}
+
+.user-header .profile .column label {
+    font-size: 0.75rem;
+    color: var(--primary);
+}
+
+.user-header .profile i {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: var(--dark);
+}
+.user-header .profile img {
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    object-fit: contain;
+}
+
+.user-header .dropdown {
+    position: absolute;
+    right: 2rem;
+    top: 5rem;
+    border: 2px solid var(--background);
+    border-radius: 0.75rem;
+}
+
+.user-header .dropdown-item {
+    padding: 1rem 2rem;
+}

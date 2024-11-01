@@ -1,0 +1,13 @@
+.top-menu {
+    padding: 1.5rem 0;    
+}
+
+.top-menu .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-menu .row .row {
+    gap: 2.5rem;
+}

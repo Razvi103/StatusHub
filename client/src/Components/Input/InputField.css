@@ -1,0 +1,31 @@
+.input-field {
+    display: flex;
+    margin: 0.5rem;
+}
+.input-field .input-label {
+    width: 150px;
+}
+
+.input-field input {
+    border: 1px solid var(--light);
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+}
+.input-field input, .input-field input::placeholder {
+    font-size: 1rem;
+}
+
+.input-field input:focus-visible {
+    outline: none;
+}
+
+.input-field.horizontal {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.input-field.vertical {
+    flex-direction: column;
+    gap: 1.5rem;
+}

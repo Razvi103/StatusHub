@@ -1,0 +1,66 @@
+.app-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    aspect-ratio: 1;
+    border: 5px solid;
+}
+
+.app-card.unknown {
+    border-color: var(--light);
+}
+.app-card.stable {
+    border-color: var(--success);
+}
+.app-card.unstable {
+    border-color: var(--warning);
+}
+.app-card.down {
+    border-color: var(--error);
+}
+
+.app-card .top {
+    font-size: 0.75rem;
+}
+
+.app-card .top span {
+    font-weight: bold;
+}
+
+.app-card .name {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.app-card .url {
+    font-size: 0.75rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.app-card .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.app-card .status {
+    font-weight: 900;
+    margin-top: 1.75rem;
+}
+.app-card.unknown .status{
+    color: var(--light);
+}
+.app-card.stable .status{
+    color: var(--success);
+}
+.app-card.unstable .status{
+    color: var(--warning);
+}
+.app-card.down .status{
+    color: var(--error);
+}
+.app-card .status span {
+    text-transform: capitalize;
+}

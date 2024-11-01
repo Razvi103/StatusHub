@@ -1,0 +1,29 @@
+.menu {
+    background-color: var(--surface);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid var(--background);
+}
+
+.menu .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu .logo img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.menu .divider {
+    content: "";
+    height: 2px;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.menu .links {
+    color: red;
+}

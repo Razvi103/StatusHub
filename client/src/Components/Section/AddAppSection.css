@@ -1,0 +1,8 @@
+.add-app-section {
+    border-radius: 0.75rem;
+    padding: 2rem;
+}
+
+.add-app-section .children {
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,69 @@
+.app-dashboard .top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.app-dashboard .top-bar .right-items {
+    display: flex;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+}
+
+.app-dashboard .top-bar .right-items h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.app-dashboard .top-bar .right-items span {
+    margin-left: 0.75rem;
+}
+.app-dashboard .top-bar .label {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.app-dashboard .row {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app-dashboard .dashboard-content {
+    border-radius: 0.75rem;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.app-dashboard .dashboard-content .line-card {
+    grid-column: 1 / span 4;
+}
+.app-dashboard .dashboard-content .bug-card {
+    grid-column: 5 / span 3;
+}
+.app-dashboard .dashboard-content .endpoint-card {
+    grid-column: 1 / span 5;
+}
+.app-dashboard .dashboard-content .pie-card {
+    grid-column: 6 / span 2;
+}
+
+.line-card, .bug-card, .endpoint-card, .pie-card {
+    border: 2px solid var(--background);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+}
+
+.app-dashboard .top-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.app-dashboard .top-row .icon-button {
+    border: 2px solid var(--error);
+}

@@ -1,0 +1,47 @@
+.join-app-section {
+    margin-bottom: 2rem;
+}
+
+.join-app-section .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create-app-section .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.create-app-section .input-field.interval input {
+    width: 3rem;
+}
+
+.create-app-section .sub-title {
+    margin: 1.5rem 0 2rem 0;
+}
+.create-app-section .right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.line-endpoint.labels {
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-top: none;
+    border-bottom: 1px solid var(--light);
+    padding-bottom: 0.5rem;
+}
+
+.line-endpoint.labels .input-label {
+    margin-left: calc(0.5rem + 1.5rem + 1.5rem);
+}
+.line-endpoint.labels .right-side {
+    margin-right: 5.5rem;
+}

@@ -1,0 +1,27 @@
+.bug-card .bug {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--error);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.bug-card .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 !important;
+}
+
+.bug-card .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.bug-card .bug-label {
+    font-weight: 700;
+    margin-right: 0.5rem;
+}

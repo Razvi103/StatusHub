@@ -1,0 +1,26 @@
+.endpoint-card .endpoint {
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr 3fr 2fr;
+    padding: 0.5rem 0;
+    border-top: 1px solid var(--light);
+}
+
+.endpoint-card .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.endpoint-card .list {
+    max-height: 345px;
+    overflow-y: auto;
+}
+
+.endpoint.header {
+    border-bottom: 1px solid var(--light);
+    border-top: none;
+    font-weight: 800;
+    font-size: 1.1rem;
+    padding: 1.5rem 0 0.25rem 0;
+    text-transform: uppercase;
+}

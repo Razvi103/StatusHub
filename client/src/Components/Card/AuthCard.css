@@ -1,0 +1,8 @@
+.auth-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: var(--surface);
+}
+

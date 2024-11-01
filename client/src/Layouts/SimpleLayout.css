@@ -1,0 +1,7 @@
+.non-user.container {
+    height: 100%;
+}
+.non-user .content {
+    height: 100%;
+    margin: 0;
+}

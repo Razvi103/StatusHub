@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    --menu-width: 16vw;
+}
+
+.base {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background);
+}
+
+.menu {
+    width: var(--menu-width);
+    height: 100vh;
+    position: fixed;
+}
+
+.content {
+    /* width: 80vw; */
+    margin-left: calc(var(--menu-width) + 2 * 2rem + 2px);
+}
+
+.page-content {
+    padding: 2rem;
+}
+
+.label {
+    font-size: 0.75rem;
+    color: var(--light);
+}

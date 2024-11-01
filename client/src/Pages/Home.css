@@ -1,0 +1,28 @@
+.top-menu img {
+    height: 2.5rem;
+}
+
+.top-menu .simple-button {
+    font-size: 1.25rem;
+    border-radius: 0.75rem;
+}
+
+.home-page .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card {
+    margin: 15rem 0;
+    padding: 2rem;
+    border-radius: 0.75rem;
+}
+
+.auth-card h2 {
+    color: var(--primary);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}

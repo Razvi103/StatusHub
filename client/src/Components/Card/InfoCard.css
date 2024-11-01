@@ -1,0 +1,40 @@
+.info-card {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    gap: 1.5rem;
+}
+
+.info-card h3 {
+    font-size: 1.75rem;
+}
+
+.info-card .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-card i {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.info-card .title {
+    text-transform: capitalize;
+}
+
+.info-card .text {
+    text-transform: capitalize;
+}
+
+.info-card .icon {
+    display: flex;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    aspect-ratio: 1;
+}
